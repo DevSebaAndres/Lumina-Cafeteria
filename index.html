@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Lumina Café de Especialidad | San Miguel de Tucumán</title>
-<!-- Google Fonts & Material Symbols -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<!-- Production Stylesheet -->
-<link href="assets/css/styles.css" rel="stylesheet"/>
-<!-- GEO & Schema.org JSON-LD Structured Data -->
-<script type="application/ld+json">
+<html class="scroll-smooth" lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Lumina Café de Especialidad | San Miguel de Tucumán</title>
+  <!-- Google Fonts & Material Symbols -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Production Stylesheet -->
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <!-- GEO & Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -24,7 +30,7 @@
       "url": "https://luminacafe.com.ar",
       "telephone": "+543810000000",
       "priceRange": "$$",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjDkBvDGf46EUHZhjJz3lRveVQsjELCZlCMpbq2bLEYiC2bnbgQc3ABI3d1OnEVqPcbgYcUHqgFnHl60_3veGPK8eyP4d9UuO3Fe0bJVeucyTDKsO9ZCvw_NGgpgQepnei0HQGLEAzeiKi9uoE7fYQFh_rJy2d4XiDsIdmwHLVRQ5sJSiKFG0pLW3ZfHXbKJKQ-xU8i9LTKl4zZrAGFFXvMDL6ru9G-qaUCfN56JUeSgybBaCK1-K7bXQnwQV84mjUp6Jcl9VUrTM",
+      "image": "https://luminacafe.com.ar/assets/images/coffee-shop.webp",
       "servesCuisine": [
         "Specialty Coffee",
         "Artisanal Bakery",
@@ -127,682 +133,757 @@
 }
 </script>
 </head>
-<body class="bg-surface text-on-surface antialiased font-body-md text-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
-<!-- ========================================================================= -->
-<!-- 1. TOP NAV BAR (Shared Component Execution)                              -->
-<!-- ========================================================================= -->
-<header class="bg-surface/90 dark:bg-inverse-surface/90 backdrop-blur-md border-b border-outline-variant/40 dark:border-outline/20 docked full-width top-0 sticky z-50 transition-colors duration-150">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12 flex justify-between items-center h-20">
-<!-- Brand Logo Anchor -->
-<a class="flex flex-col group" href="#">
-<span class="font-display-lg text-headline-sm tracking-tight text-on-surface dark:text-inverse-on-surface font-semibold flex items-center gap-2">
-<span class="material-symbols-outlined text-primary dark:text-inverse-primary" data-icon="local_cafe">local_cafe</span>
+
+<body
+  class="bg-surface text-on-surface antialiased font-body-md text-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+  <!-- ========================================================================= -->
+  <!-- 1. TOP NAV BAR (Shared Component Execution)                              -->
+  <!-- ========================================================================= -->
+  <header
+    class="bg-surface/90 dark:bg-inverse-surface/90 backdrop-blur-md border-b border-outline-variant/40 dark:border-outline/20 docked full-width top-0 sticky z-50 transition-colors duration-150">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-12 flex justify-between items-center h-20">
+      <!-- Brand Logo Anchor -->
+      <a class="flex flex-col group" href="#">
+        <span
+          class="font-display-lg text-headline-sm tracking-tight text-on-surface dark:text-inverse-on-surface font-semibold flex items-center gap-2">
+          <span class="material-symbols-outlined text-primary dark:text-inverse-primary"
+            data-icon="local_cafe">local_cafe</span>
           Lumina Café
         </span>
-<span class="font-label-sm text-label-sm tracking-widest text-outline uppercase -mt-1 pl-8">Café de Especialidad</span>
-</a>
-<!-- Navigation Links -->
-<nav class="hidden md:flex items-center gap-8 font-label-lg text-label-lg">
-<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#menu">Menú</a>
-<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#nosotros">Nosotros</a>
-<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#cobertura">Cobertura</a>
-<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#faqs">FAQs</a>
-</nav>
-<!-- Trailing Action Buttons -->
-<div class="flex items-center gap-3">
-<a class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-on-surface dark:border-inverse-on-surface text-on-surface dark:text-inverse-on-surface hover:bg-on-surface dark:hover:bg-inverse-on-surface hover:text-surface dark:hover:text-inverse-surface font-label-lg text-label-lg transition-all duration-150 active:scale-[0.98]" href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quisiera%20reservar%20una%20mesa" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[18px]" data-icon="table_restaurant">table_restaurant</span>
+        <span class="font-label-sm text-label-sm tracking-widest text-outline uppercase -mt-1 pl-8">Café de
+          Especialidad</span>
+      </a>
+      <!-- Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8 font-label-lg text-label-lg">
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+          href="#menu">Menú</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+          href="#nosotros">Nosotros</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+          href="#cobertura">Cobertura</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+          href="#faqs">FAQs</a>
+      </nav>
+      <!-- Trailing Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-on-surface dark:border-inverse-on-surface text-on-surface dark:text-inverse-on-surface hover:bg-on-surface dark:hover:bg-inverse-on-surface hover:text-surface dark:hover:text-inverse-surface font-label-lg text-label-lg transition-all duration-150 active:scale-[0.98]"
+          href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quisiera%20reservar%20una%20mesa"
+          rel="noopener noreferrer" target="_blank">
+          <span class="material-symbols-outlined text-[18px]" data-icon="table_restaurant">table_restaurant</span>
           Reservar Mesa
         </a>
-<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all duration-150 shadow-sm active:scale-[0.98]" href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quiero%20hacer%20un%20pedido" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[18px]" data-icon="chat">chat</span>
+        <a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all duration-150 shadow-sm active:scale-[0.98]"
+          href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quiero%20hacer%20un%20pedido"
+          rel="noopener noreferrer" target="_blank">
+          <span class="material-symbols-outlined text-[18px]" data-icon="chat">chat</span>
           WhatsApp
         </a>
-</div>
-</div>
-</header>
-<!-- ========================================================================= -->
-<!-- MAIN CONTENT WRAPPER (Semantic HTML5)                                     -->
-<!-- ========================================================================= -->
-<main>
-<!-- ========================================================================= -->
-<!-- 2. HERO SECTION                                                           -->
-<!-- ========================================================================= -->
-<section class="relative overflow-hidden pt-12 pb-20 md:py-24 border-b border-outline-variant/30 bg-surface-bright">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-<!-- Text Column -->
-<div class="lg:col-span-7 flex flex-col items-start">
-<!-- SCA & Micro-roaster Badge -->
-<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant border border-secondary-fixed-dim/60 font-label-sm text-label-sm mb-6">
-<span class="material-symbols-outlined text-[16px] text-primary" data-icon="bolt">bolt</span>
-<span>Tostado propio a la vista | Baristas certificados SCA</span>
-</div>
-<!-- Main Title -->
-<h1 class="font-headline-lg md:font-display-lg text-headline-lg md:text-display-lg text-on-surface tracking-tight mb-6">
-            Cafetería de Especialidad y Pastelería de Autor en San Miguel de Tucumán
-          </h1>
-<!-- AEO Styled Blockquote Container -->
-<blockquote class="bg-surface-container-low border-l-4 border-primary p-5 rounded-r-xl text-on-surface-variant font-body-lg text-body-lg mb-8 shadow-sm">
-            “Lumina Café de Especialidad es una cafetería y pastelería de autor en San Miguel de Tucumán, especializada en café recién tostado a la vista, métodos de filtrado artesanal, desayunos y espacio de trabajo con conectividad Starlink en la zona céntrica.”
-          </blockquote>
-<!-- Action Buttons -->
-<div class="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-10">
-<a class="w-full sm:w-auto inline-flex justify-center items-center gap-3 px-6 py-3.5 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all duration-150 shadow-sm active:scale-[0.98]" href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quisiera%20reservar%20una%20mesa%20o%20pedir%20granos" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[20px]" data-icon="chat">chat</span>
-              Reservar Mesa o Pedir Granos por WhatsApp
-            </a>
-<a class="w-full sm:w-auto inline-flex justify-center items-center gap-2 px-6 py-3.5 rounded-xl border border-on-surface text-on-surface hover:bg-on-surface hover:text-surface font-label-lg text-label-lg transition-all duration-150 active:scale-[0.98]" href="#menu">
-<span class="material-symbols-outlined text-[20px]" data-icon="menu_book">menu_book</span>
-              Ver Carta de Métodos
-            </a>
-</div>
-<!-- 3 Trust Badges -->
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full pt-4 border-t border-outline-variant/40">
-<div class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
-<div class="flex items-center gap-2 text-primary font-title-md text-title-md">
-<span class="material-symbols-outlined text-[18px]" data-icon="schedule">schedule</span>
-<span class="font-semibold">&lt;30 días de tueste</span>
-</div>
-<p class="font-body-sm text-body-sm text-outline">Trazabilidad desde finca hasta tu taza servida fresca.</p>
-</div>
-<div class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
-<div class="flex items-center gap-2 text-primary font-title-md text-title-md">
-<span class="material-symbols-outlined text-[18px]" data-icon="wifi">wifi</span>
-<span class="font-semibold">Starlink 250 Mbps</span>
-</div>
-<p class="font-body-sm text-body-sm text-outline">Espacio calmo para nómadas digitales y reuniones.</p>
-</div>
-<div class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
-<div class="flex items-center gap-2 text-primary font-title-md text-title-md">
-<span class="material-symbols-outlined text-[18px]" data-icon="workspace_premium">workspace_premium</span>
-<span class="font-semibold">4 años pioneros</span>
-</div>
-<p class="font-body-sm text-body-sm text-outline">Referentes del café de especialidad en el norte.</p>
-</div>
-</div>
-</div>
-<!-- Image & Atmospheric Graphic Column -->
-<div class="lg:col-span-5 relative">
-<div class="relative rounded-2xl overflow-hidden border border-outline-variant/50 shadow-md aspect-[4/5] bg-surface-container">
-<img class="w-full h-full object-cover" data-alt="Warm modern specialty coffee shop interior in San Miguel de Tucumán with natural morning sunlight, sleek stone bar counter, professional espresso machine, artisanal pour-over stations, and terracotta design accents. Cozy yet minimalist atmosphere with soft warm neutral tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjDkBvDGf46EUHZhjJz3lRveVQsjELCZlCMpbq2bLEYiC2bnbgQc3ABI3d1OnEVqPcbgYcUHqgFnHl60_3veGPK8eyP4d9UuO3Fe0bJVeucyTDKsO9ZCvw_NGgpgQepnei0HQGLEAzeiKi9uoE7fYQFh_rJy2d4XiDsIdmwHLVRQ5sJSiKFG0pLW3ZfHXbKJKQ-xU8i9LTKl4zZrAGFFXvMDL6ru9G-qaUCfN56JUeSgybBaCK1-K7bXQnwQV84mjUp6Jcl9VUrTM"/>
-<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-6 text-inverse-on-surface">
-<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed mb-1">Mendoza 456 · Microcentro</span>
-<p class="font-headline-sm text-headline-sm font-medium">El ritual del café perfecto, tostado a la vista.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- ========================================================================= -->
-<!-- 3. PROBLEMA & SOLUCIÓN                                                    -->
-<!-- ========================================================================= -->
-<section class="py-20 md:py-24 bg-surface-container-low border-b border-outline-variant/30">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12">
-<div class="max-w-3xl mb-14">
-<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">El Estándar Lumina</span>
-<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
-          La diferencia entre tomar café y vivir una experiencia sensorial
-        </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
-          Durante décadas, el café comercial se definió por la sobrecocción y la falta de transparencia. En Lumina concebimos cada taza como un tributo a la botánica y al oficio.
-        </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<!-- Tarjeta Problema: Café Tradicional -->
-<div class="bg-surface-container-highest/60 rounded-2xl p-8 border border-outline-variant/40 flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-3 mb-6">
-<span class="w-10 h-10 rounded-full bg-outline-variant/30 flex items-center justify-center text-outline">
-<span class="material-symbols-outlined text-[22px]" data-icon="close">close</span>
-</span>
-<div>
-<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">Cafetería Comercial Tradicional</h3>
-<p class="font-body-sm text-body-sm text-outline">El estándar masivo y despersonalizado</p>
-</div>
-</div>
-<ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-outline mt-0.5 text-[18px]" data-icon="cancel">cancel</span>
-<span><strong>Granos quemados o torrados:</strong> Mezclas comerciales sobretostadas con azúcar añadida para ocultar defectos y acidez rancia.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-outline mt-0.5 text-[18px]" data-icon="cancel">cancel</span>
-<span><strong>Meses en anaquel:</strong> Empaques sin fecha de tueste visible ni datos de finca, perdiendo todos los aceites esenciales aromáticos.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-outline mt-0.5 text-[18px]" data-icon="cancel">cancel</span>
-<span><strong>Amargor artificial:</strong> Necesidad obligatoria de azúcar o edulcorante para enmascarar la astringencia y sabor a carbón.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-outline mt-0.5 text-[18px]" data-icon="cancel">cancel</span>
-<span><strong>Entorno caótico:</strong> Música estridente, barullo de salón, sillas incómodas y conexión Wi-Fi inestable que se corta continuamente.</span>
-</li>
-</ul>
-</div>
-<div class="mt-8 pt-6 border-t border-outline-variant/30 font-label-md text-label-md text-outline">
-            Resultado: Malestar gástrico, cafeína desbalanceada y una pausa sin disfrute real.
-          </div>
-</div>
-<!-- Tarjeta Solución: Lumina Café -->
-<div class="bg-surface-container-lowest rounded-2xl p-8 border-2 border-primary/20 shadow-sm flex flex-col justify-between relative overflow-hidden">
-<div class="absolute top-0 right-0 bg-primary text-on-primary px-4 py-1 rounded-bl-xl font-label-sm text-label-sm uppercase tracking-wider">
-            Experiencia Lumina
-          </div>
-<div>
-<div class="flex items-center gap-3 mb-6">
-<span class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[22px]" data-icon="check">check</span>
-</span>
-<div>
-<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">Lumina Café de Especialidad</h3>
-<p class="font-body-sm text-body-sm text-secondary font-medium">Tueste artesanal de más de 84 puntos SCA</p>
-</div>
-</div>
-<ul class="space-y-4 font-body-md text-body-md text-on-surface">
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary mt-0.5 text-[18px]" data-icon="check_circle">check_circle</span>
-<span><strong>Granos 100% Arábica de Finca:</strong> Lotes seleccionados con puntaje SCA &gt;84, trazabilidad total del productor y varietal botánico.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary mt-0.5 text-[18px]" data-icon="check_circle">check_circle</span>
-<span><strong>Tueste propio &lt;30 días:</strong> Perfil de tueste medio desarrollado en San Miguel de Tucumán para resaltar dulzor y cuerpo sedoso.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary mt-0.5 text-[18px]" data-icon="check_circle">check_circle</span>
-<span><strong>Notas sensoriales nítidas:</strong> Tazas complejas con notas naturales a chocolate amargo, frutos rojos, jazmín o caramelo sin aditivos.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary mt-0.5 text-[18px]" data-icon="check_circle">check_circle</span>
-<span><strong>Refugio productivo &amp; Starlink:</strong> Acústica calibrada, asientos ergonómicos, tomas en cada mesa y Starlink de 250 Mbps estable.</span>
-</li>
-</ul>
-</div>
-<div class="mt-8 pt-6 border-t border-outline-variant/40 font-label-md text-label-md text-primary font-semibold">
-            Resultado: Dulzor natural, digestión limpia y un espacio donde querés quedarte horas.
-          </div>
-</div>
-</div>
-</div>
-</section>
-<!-- ========================================================================= -->
-<!-- 4. CUADRÍCULA DE SERVICIOS Y PRODUCTOS                                    -->
-<!-- ========================================================================= -->
-<section class="py-20 md:py-24 bg-surface" id="menu">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12">
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
-<div>
-<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Carta de Autor</span>
-<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2">
-            Nuestros Pilares Gastronómicos y de Barismo
-          </h2>
-</div>
-<p class="max-w-md font-body-md text-body-md text-on-surface-variant">
-          Ingredientes nobles, fermentación pausada y calibración diaria por balanza y refractómetro.
-        </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<!-- Card 1: Espresso & Bebidas Especiales -->
-<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
-<div class="h-48 overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A macro detailed photography shot of a professional barista extracting a golden crema double espresso shot with rich hazelnut tones into a ceramic artisan cup in a sunlit warm specialty coffee shop in Tucumán." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBymTWAA6rxxhl2jxw_d0In8Xz3_4Oln_lUEaEo_9V4ltHMuZ6nO6Zy9a_y-laeA-OytrWFjxOZYnkpuX74fKDcLNSt3cfQcjsHE5Sy8hBq_xF7oe_T504h0xFZf51f7Mk5XASKKCPra3a9QYy0eiG81ncWgRL-IMHimHTYRMh-hDkJkWmgPyhX-x4Ne_DoP5MFl0VmhSxT-aC9B64intaIlzZ1ZLNyxWBTv8ECaAxRyPsyVtmAxS0nleM8myJ-UKcG0oT-vtDREfo"/>
-<div class="absolute top-3 left-3 bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm border border-secondary-fixed-dim/40">
-              Calibración Diaria
+      </div>
+    </div>
+  </header>
+  <!-- ========================================================================= -->
+  <!-- MAIN CONTENT WRAPPER (Semantic HTML5)                                     -->
+  <!-- ========================================================================= -->
+  <main>
+    <!-- ========================================================================= -->
+    <!-- 2. HERO SECTION                                                           -->
+    <!-- ========================================================================= -->
+    <section class="relative overflow-hidden pt-12 pb-20 md:py-24 border-b border-outline-variant/30 bg-surface-bright">
+      <div class="max-w-[1320px] mx-auto px-6 md:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          <!-- Text Column -->
+          <div class="lg:col-span-7 flex flex-col items-start">
+
+            <!-- Main Title -->
+            <h1
+              class="font-headline-lg md:font-display-lg text-headline-lg md:text-display-lg text-on-surface tracking-tight mb-6">
+              Cafetería de Especialidad y Pastelería de Autor en San Miguel de Tucumán
+            </h1>
+            <!-- AEO Styled Blockquote Container -->
+            <blockquote
+              class="bg-surface-container-low border-l-4 border-primary p-5 rounded-r-xl text-on-surface-variant font-body-lg text-body-lg mb-8 shadow-sm">
+              “Lumina Café de Especialidad es una cafetería y pastelería de autor en San Miguel de Tucumán,
+              especializada en café recién tostado a la vista, métodos de filtrado artesanal, desayunos y espacio de
+              trabajo con conectividad Starlink en la zona céntrica.”
+            </blockquote>
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-10">
+              <a class="w-full sm:w-auto inline-flex justify-center items-center gap-3 px-6 py-3.5 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all duration-150 shadow-sm active:scale-[0.98]"
+                href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café,%20quisiera%20reservar%20una%20mesa%20o%20pedir%20granos"
+                rel="noopener noreferrer" target="_blank">
+                <span class="material-symbols-outlined text-[20px]" data-icon="chat">chat</span>
+                Reservar Mesa o Pedir Granos por WhatsApp
+              </a>
+              <a class="w-full sm:w-auto inline-flex justify-center items-center gap-2 px-6 py-3.5 rounded-xl border border-on-surface text-on-surface hover:bg-on-surface hover:text-surface font-label-lg text-label-lg transition-all duration-150 active:scale-[0.98]"
+                href="#menu">
+                <span class="material-symbols-outlined text-[20px]" data-icon="menu_book">menu_book</span>
+                Ver Carta de Métodos
+              </a>
             </div>
-</div>
-<div class="p-5 flex-1 flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-2 text-primary mb-2">
-<span class="material-symbols-outlined text-[20px]" data-icon="coffee">coffee</span>
-<span class="font-label-sm text-label-sm uppercase font-semibold">Barra Espresso</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Espresso &amp; Especiales</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
-                Doble shot calibrado a diario, Flat White aterciopelado, Dirty Chai especiado e Iced Lattes con leches vegetales de autor elaboradas en casa.
-              </p>
-</div>
-<div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-outline">Notas: Frutas secas &amp; Caramelo</span>
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="arrow_forward">arrow_forward</span>
-</div>
-</div>
-</div>
-<!-- Card 2: Métodos de Filtrado Manual -->
-<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
-<div class="h-48 overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A delicate V60 pour over manual brewing technique setup with clear glass decanter, stream of hot water over roasted coffee grounds, highlighting clean translucent amber coffee with floral aromas in an editorial warm minimalist setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZ3EcFObujOsE6oFnxrVK-kGHUUyf28nwqvFi3CfVCP74nBuNm-iECj97kGT2fo1DB3ttbVPJKdef_RMthe0NiJg2H7JdkoxxCGg-H_15-j4TRXH1PzGCIGK1jeO6r-Am2Yg5BZizD3ChjP7PI1N0_S5zY_XC0Xe9HrmgVvsiC0Z6tkUqL5op00TazJ50vdUbI3N0ie4pvhUxM1igXN5JfUrJm31OD6cjw9DV1MlOcxIsHX7ZACLf0_HVvSxt5GZlzdfoaRJUWJ6s"/>
-<div class="absolute top-3 left-3 bg-primary-fixed/90 backdrop-blur-sm text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm">
-              SCA 84+ Points
-            </div>
-</div>
-<div class="p-5 flex-1 flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-2 text-primary mb-2">
-<span class="material-symbols-outlined text-[20px]" data-icon="science">science</span>
-<span class="font-label-sm text-label-sm uppercase font-semibold">Slow Bar</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Filtrados Manuales</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
-                V60, Chemex, Aeropress y Prensa Francesa servidos en decantador de vidrio junto a la ficha técnica de origen con varietal, altura y proceso de secado.
-              </p>
-</div>
-<div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-outline">Extracción limpia y delicada</span>
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="arrow_forward">arrow_forward</span>
-</div>
-</div>
-</div>
-<!-- Card 3: Pastelería y Panadería de Autor -->
-<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
-<div class="h-48 overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Golden crisp artisanal croissants, sourdough pastry, pain au chocolat and spiced carrot cake slice garnished with Tucumán walnuts on a handmade ceramic plate against warm linen textures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd2js0UxFjnvQJCm7a3Cb4NGaxz5C_nO8eGmWEXGILvzG7opHsRxwtbBOOGVUuADskfFCx-lF2jM7t20KGnd32yuw5DqPDvpjssnMqmn8Gf9NekgryiAgmU_JRQDDpPGNJH9LdNELIaKeu0WsQG2-QCIjDCXIO7_z5ykpZvyP-G-xZJuV5ox6fQklJDS6awVOYMgV5VoitZjwDqApuoZryvM-KnPSjEm_BAkFlh5S1dsmVG_zE61Li4PskyaYi0y6SmeludOqA8RE"/>
-<div class="absolute top-3 left-3 bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm border border-secondary-fixed-dim/40">
-              Masa Madre
-            </div>
-</div>
-<div class="p-5 flex-1 flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-2 text-primary mb-2">
-<span class="material-symbols-outlined text-[20px]" data-icon="bakery_dining">bakery_dining</span>
-<span class="font-label-sm text-label-sm uppercase font-semibold">Patisserie Propia</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Pastelería de Autor</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
-                Medialunas de masa madre hojaldradas con manteca pura, pain au chocolat, carrot cake con nueces tucumanas y laminados frescos horneados cada mañana.
-              </p>
-</div>
-<div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-outline">Horneado diario desde las 7 AM</span>
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="arrow_forward">arrow_forward</span>
-</div>
-</div>
-</div>
-<!-- Card 4: Brunch & Desayunos Completos -->
-<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
-<div class="h-48 overflow-hidden bg-surface-container relative">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Nutritious savory sourdough toast with smashed avocado, soft poached eggs, fresh microgreens alongside an artisan Greek yogurt bowl with house toasted granola and seasonal berries in a warm sunny morning setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMwqAVke3mAp9i4_g0ltWXmXfuNddQHkNNZ6dTpcuBKoGL104-eydV9kH5HfOWJJsQ-dXWzReBB6aD5Ilw7zhmTGmQOx10Uj4VlzmWS6vHU7M5cCrERe3ODjlg53z_o9fRSWM56MPTd40ZNoSJI3bFo9R6Ea02MjmxIsKbaLZx1PnJQeXuX1icpA-1FxUntX4Z-zNUfXS73HeeUmhx2gzAfKz1EI3B3awXXVLAHGNtRm5Nb29joyQJzDs2pf8hoKtAZstbONxa6nw"/>
-<div class="absolute top-3 left-3 bg-primary-fixed/90 backdrop-blur-sm text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm">
-              All Day Brunch
-            </div>
-</div>
-<div class="p-5 flex-1 flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-2 text-primary mb-2">
-<span class="material-symbols-outlined text-[20px]" data-icon="egg_alt">egg_alt</span>
-<span class="font-label-sm text-label-sm uppercase font-semibold">Cocina Fresca</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Brunch &amp; Desayunos</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
-                Tostones de masa madre con palta y huevo poché, bowls de yogur artesanal con granola de la casa, frutos secos y frutas de estación seleccionadas del mercado local.
-              </p>
-</div>
-<div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-outline">Opciones plant-based &amp; GF</span>
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="arrow_forward">arrow_forward</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- ========================================================================= -->
-<!-- 5. COBERTURA GEOGRÁFICA EN SAN MIGUEL DE TUCUMÁN                          -->
-<!-- ========================================================================= -->
-<section class="py-20 md:py-24 bg-surface-container-low border-y border-outline-variant/30" id="cobertura">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-<!-- Info Column -->
-<div class="lg:col-span-6">
-<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Tucumán Capital</span>
-<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
-            Área de Cobertura y Envíos Express de Granos
-          </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
-            Llegamos a tu hogar u oficina con café recién tostado en grano o molido según tu cafetera. Despachamos pedidos directos en menos de 30 minutos dentro de las zonas principales.
-          </p>
-<div class="space-y-4 mb-8">
-<!-- Zone 1 -->
-<div class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
-<span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
-<span class="material-symbols-outlined text-[20px]" data-icon="pin_drop">pin_drop</span>
-</span>
-<div>
-<h3 class="font-title-md text-title-md text-on-surface font-semibold">Barrio Norte</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Av. Sarmiento, Av. Avellaneda, Corrientes, Santa Fe, Marco Avellaneda y alrededores residenciales.</p>
-</div>
-</div>
-<!-- Zone 2 -->
-<div class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
-<span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
-<span class="material-symbols-outlined text-[20px]" data-icon="location_on">location_on</span>
-</span>
-<div>
-<h3 class="font-title-md text-title-md text-on-surface font-semibold">Microcentro &amp; Plaza Independencia</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Zona bancaria y corporativa, Casa Histórica, Casa de Gobierno, San Martín, 24 de Septiembre y Peatonal Muñecas.</p>
-</div>
-</div>
-<!-- Zone 3 -->
-<div class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
-<span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
-<span class="material-symbols-outlined text-[20px]" data-icon="near_me">near_me</span>
-</span>
-<div>
-<h3 class="font-title-md text-title-md text-on-surface font-semibold">Barrio Sur</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Av. General Paz, Buenos Aires, Congreso, Plaza San Martín y corredor de Tribunales.</p>
-</div>
-</div>
-<!-- Zone 4 -->
-<div class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
-<span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
-<span class="material-symbols-outlined text-[20px]" data-icon="school">school</span>
-</span>
-<div>
-<h3 class="font-title-md text-title-md text-on-surface font-semibold">Zona Universitaria (UNT)</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Quinta Agronómica, Rectorado de la UNT, Facultades de Medicina y Filosofía y Letras.</p>
-</div>
-</div>
-</div>
-<div class="inline-flex items-center gap-3 px-4 py-3 rounded-xl bg-tertiary-fixed/40 text-on-tertiary-fixed-variant border border-outline-variant/30 font-body-sm text-body-sm">
-<span class="material-symbols-outlined text-primary" data-icon="moped">moped</span>
-<span><strong>Compromiso Lumina:</strong> Envíos directos en 30 minutos y retiro express sin fila en mostrador.</span>
-</div>
-</div>
-<!-- Schematic Map Visual Card -->
-<div class="lg:col-span-6">
-<div class="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/40 shadow-sm">
-<div class="flex items-center justify-between mb-4">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary" data-icon="map">map</span>
-<span class="font-title-md text-title-md font-semibold text-on-surface">Radio de Cobertura San Miguel</span>
-</div>
-<span class="px-2.5 py-1 bg-secondary-fixed text-on-secondary-fixed-variant rounded-md font-label-sm text-label-sm font-semibold">3.5 km Radio</span>
-</div>
-<!-- Visual representation of the city map using styled canvas container -->
-<div class="relative w-full h-[360px] rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 flex items-center justify-center">
-<img class="w-full h-full object-cover" data-alt="A clean minimalist cartographic map illustration of San Miguel de Tucumán showing central street grids around Plaza Independencia and Barrio Norte with terracotta routing accents and soft warm cream tones." data-location="San Miguel de Tucuman" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC5Bmp5xfiNs7QGeW9XjOxNU6ihRyOjIi4uxzOv1XakwUOKAZ64mxY-S_KLLvQoIE3VWL29JcDCDU17uzk68lpFjG384hfQVFT65fAMYnghVvzABcNd21xvvNAGj0uOopfXVwQwBtZ5_GL2IAh1r0Xv8-JtvPdMweMYCrTPYj3o_krKWat70Jo-M6ARbfF5B2FueRM4MaC2S3ga0mU3rZ1r0Kx0V7KXsd-ZVSPYhZ6HepN30AdpJjizGomdmNSzO7KOwilhyOE4cM"/>
-<!-- Floating Location Pin for Central Shop -->
-<div class="absolute inset-0 bg-on-surface/10 backdrop-blur-[1px] flex items-center justify-center pointer-events-none">
-<div class="bg-surface-container-lowest/95 backdrop-blur-md px-5 py-4 rounded-xl border border-outline-variant/60 shadow-lg text-center transform -translate-y-4">
-<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center mx-auto mb-2 shadow-sm">
-<span class="material-symbols-outlined text-[18px]" data-icon="local_cafe">local_cafe</span>
-</div>
-<h4 class="font-title-md text-title-md font-semibold text-on-surface">Lumina Tostaduría</h4>
-<p class="font-body-sm text-body-sm text-outline">Mendoza 456 · Centro</p>
-<span class="inline-block mt-2 px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">Punto de Partida</span>
-</div>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-4 mt-5 pt-4 border-t border-outline-variant/30 text-center">
-<div>
-<span class="block font-headline-sm text-headline-sm text-primary font-bold">30 min</span>
-<span class="font-body-sm text-body-sm text-outline">Promedio de entrega</span>
-</div>
-<div>
-<span class="block font-headline-sm text-headline-sm text-secondary font-bold">100% Hermético</span>
-<span class="font-body-sm text-body-sm text-outline">Válvula desgasificadora</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- ========================================================================= -->
-<!-- 6. MATRIZ COMPARATIVA "POR QUÉ ELEGIR LUMINA"                            -->
-<!-- ========================================================================= -->
-<section class="py-20 md:py-24 bg-surface" id="nosotros">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12">
-<div class="text-center max-w-3xl mx-auto mb-16">
-<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Transparencia Total</span>
-<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
-          Por qué elegir Lumina en Tucumán
-        </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
-          Comparamos minuciosamente cada variable para garantizar que tu inversión en bienestar y sabor sea inigualable.
-        </p>
-</div>
-<!-- Clean Comparison Table / Matrix -->
-<div class="overflow-x-auto bg-surface-container-lowest rounded-2xl border border-outline-variant/40 shadow-sm">
-<table class="w-full text-left border-collapse min-w-[640px]">
-<thead>
-<tr class="border-b border-outline-variant/40 bg-surface-container-low/50">
-<th class="p-6 font-label-lg text-label-lg text-outline uppercase tracking-wider w-1/3">Criterio de Calidad</th>
-<th class="p-6 font-title-lg text-title-lg text-primary font-semibold w-1/3 bg-primary-fixed/20 border-l border-r border-primary/20">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-[20px]" data-icon="verified">verified</span>
-                  Lumina Café de Especialidad
+            <!-- 3 Trust Badges -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full pt-4 border-t border-outline-variant/40">
+              <div
+                class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
+                <div class="flex items-center gap-2 text-primary font-title-md text-title-md">
+                  <span class="material-symbols-outlined text-[18px]" data-icon="schedule">schedule</span>
+                  <span class="font-semibold">&lt;30 días de tueste</span>
                 </div>
-</th>
-<th class="p-6 font-title-lg text-title-lg text-outline font-semibold w-1/3">Café Tradicional</th>
-</tr>
-</thead>
-<tbody class="divide-y divide-outline-variant/30 font-body-md text-body-md">
-<!-- Row 1: Origen del Grano -->
-<tr class="hover:bg-surface-container-low/30 transition-colors">
-<td class="p-6 font-semibold text-on-surface">
-                Origen del Grano
-                <span class="block font-normal text-body-sm text-outline mt-0.5">Calidad en finca y trazabilidad</span>
-</td>
-<td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
-                Fincas seleccionadas con puntaje &gt;84 SCA, microlotes con trazabilidad completa de origen, variedad y proceso.
-              </td>
-<td class="p-6 text-on-surface-variant">
-                Mezclas comerciales genéricas sin identificación de finca ni varietal botánico.
-              </td>
-</tr>
-<!-- Row 2: Fecha de Tueste -->
-<tr class="hover:bg-surface-container-low/30 transition-colors">
-<td class="p-6 font-semibold text-on-surface">
-                Fecha de Tueste
-                <span class="block font-normal text-body-sm text-outline mt-0.5">Frescura de aceites esenciales</span>
-</td>
-<td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
-                Menor a 30 días, tostado in situ en nuestro tostador de San Miguel de Tucumán.
-              </td>
-<td class="p-6 text-on-surface-variant">
-                Meses o años en góndola comercial, comúnmente torrado con azúcar añadida.
-              </td>
-</tr>
-<!-- Row 3: Espacio de Trabajo -->
-<tr class="hover:bg-surface-container-low/30 transition-colors">
-<td class="p-6 font-semibold text-on-surface">
-                Espacio de Trabajo
-                <span class="block font-normal text-body-sm text-outline mt-0.5">Productividad y ergonomía</span>
-</td>
-<td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
-                Conectividad Starlink 250 Mbps simétrica, tomas individuales en cada mesa y ambiente calmo.
-              </td>
-<td class="p-6 text-on-surface-variant">
-                Red pública saturada o lenta, enchufes escasos y contaminación sonora constante.
-              </td>
-</tr>
-<!-- Row 4: Opciones Alimentarias -->
-<tr class="hover:bg-surface-container-low/30 transition-colors">
-<td class="p-6 font-semibold text-on-surface">
-                Opciones Alimentarias
-                <span class="block font-normal text-body-sm text-outline mt-0.5">Salud digestiva y elaboración</span>
-</td>
-<td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
-                Masa madre de fermentación lenta (24h+), leches vegetales sin azúcar y repostería sin TACC.
-              </td>
-<td class="p-6 text-on-surface-variant">
-                Panificados industriales ultraprocesados con grasas hidrogenadas y conservantes.
-              </td>
-</tr>
-<!-- Row 5: Baristas -->
-<tr class="hover:bg-surface-container-low/30 transition-colors">
-<td class="p-6 font-semibold text-on-surface">
-                Baristas y Preparación
-                <span class="block font-normal text-body-sm text-outline mt-0.5">Capacitación técnica</span>
-</td>
-<td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
-                Baristas certificados SCA con formación en texturizado de leche, ratios de extracción y cata.
-              </td>
-<td class="p-6 text-on-surface-variant">
-                Operadores de maquinaria automática sin calibración térmica ni control de peso.
-              </td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<!-- ========================================================================= -->
-<!-- 7. SECCIÓN FAQS EN ACORDEÓN INTERACTIVO                                   -->
-<!-- ========================================================================= -->
-<section class="py-20 md:py-24 bg-surface-container-low border-b border-outline-variant/30" id="faqs">
-<div class="max-w-[960px] mx-auto px-6 md:px-12">
-<div class="text-center mb-14">
-<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Preguntas Frecuentes</span>
-<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
-          Resolvemos tus dudas antes de tu visita
-        </h2>
-<p class="font-body-md text-body-md text-on-surface-variant">
-          Todo lo que necesitás saber sobre nuestro café, tostado, conectividad y dinámicas de reserva.
-        </p>
-</div>
-<div class="space-y-4">
-<!-- Accordion Item 1 -->
-<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden" open="">
-<summary class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
-<span>¿Qué significa que el café sea "de especialidad"?</span>
-<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
-</summary>
-<div class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            El café de especialidad es aquel calificado con 80 puntos o más por la Specialty Coffee Association (SCA). En nuestro local trabajamos únicamente con lotes superiores a 84 puntos para garantizar la máxima calidad en taza.
+                <p class="font-body-sm text-body-sm text-outline">Trazabilidad desde finca hasta tu taza servida fresca.
+                </p>
+              </div>
+              <div
+                class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
+                <div class="flex items-center gap-2 text-primary font-title-md text-title-md">
+                  <span class="material-symbols-outlined text-[18px]" data-icon="wifi">wifi</span>
+                  <span class="font-semibold">Starlink 250 Mbps</span>
+                </div>
+                <p class="font-body-sm text-body-sm text-outline">Espacio calmo para nómadas digitales y reuniones.</p>
+              </div>
+              <div
+                class="p-3.5 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex flex-col gap-1">
+                <div class="flex items-center gap-2 text-primary font-title-md text-title-md">
+                  <span class="material-symbols-outlined text-[18px]"
+                    data-icon="workspace_premium">workspace_premium</span>
+                  <span class="font-semibold">4 años pioneros</span>
+                </div>
+                <p class="font-body-sm text-body-sm text-outline">Referentes del café de especialidad en el norte.</p>
+              </div>
+            </div>
           </div>
-</details>
-<!-- Accordion Item 2 -->
-<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
-<span>¿Puedo llevar mi laptop a trabajar y qué velocidad de internet tienen?</span>
-<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
-</summary>
-<div class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Sí, somos un espacio ideal para el trabajo remoto. Contamos con conexión satelital Starlink de 250 Mbps con baja latencia, múltiples tomas de corriente en cada mesa y un ambiente acústicamente diseñado para nómadas digitales.
+          <!-- Image & Atmospheric Graphic Column -->
+          <div class="lg:col-span-5 relative">
+            <div
+              class="relative rounded-2xl overflow-hidden border border-outline-variant/50 shadow-md aspect-[4/5] bg-surface-container">
+              <picture class="w-full h-full block">
+                <source srcset="assets/images/coffee-shop.webp 1080w, assets/images/coffee-shop-mobile.webp 640w" sizes="(min-width: 1024px) 520px, 100vw" type="image/webp" />
+                <img class="w-full h-full object-cover"
+                  src="assets/images/coffee-shop.webp"
+                  alt="Taza de café de especialidad servida en Lumina Café en San Miguel de Tucumán, tostaría propia y pastelería artesanal"
+                  width="1080"
+                  height="1350"
+                  loading="eager"
+                  fetchpriority="high"
+                  decoding="async" />
+              </picture>
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-6 text-inverse-on-surface pointer-events-none">
+                <span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed mb-1">Mendoza 456
+                  · Microcentro</span>
+                <p class="font-headline-sm text-headline-sm font-medium">El ritual del café perfecto, tostado a la
+                  vista.</p>
+              </div>
+            </div>
           </div>
-</details>
-<!-- Accordion Item 3 -->
-<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
-<span>¿Tienen café en granos o molido para llevar a casa?</span>
-<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
-</summary>
-<div class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Sí. Ofrecemos paquetes de granos recién tostados en nuestro local, garantizando menos de 30 días desde su tueste. Además, los molemos en el momento según el tipo de cafetera que tengas en casa.
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 4. CUADRÍCULA DE SERVICIOS Y PRODUCTOS                                    -->
+    <!-- ========================================================================= -->
+    <section class="py-20 md:py-24 bg-surface" id="menu">
+      <div class="max-w-[1320px] mx-auto px-6 md:px-12">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+          <div>
+            <span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Carta de
+              Autor</span>
+            <h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2">
+              Nuestros Pilares Gastronómicos y de Barismo
+            </h2>
           </div>
-</details>
-<!-- Accordion Item 4 -->
-<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
-<span>¿Toman reservas de mesas para reuniones o eventos?</span>
-<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
-</summary>
-<div class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Tomamos reservas exclusivamente para reuniones grupales o de trabajo de lunes a viernes vía WhatsApp. Si vienes solo o en pareja, puedes acercarte directamente sin reserva previa.
+          <p class="max-w-md font-body-md text-body-md text-on-surface-variant">
+            Ingredientes nobles, fermentación pausada y calibración diaria por balanza y refractómetro.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1: Espresso & Bebidas Especiales -->
+          <div
+            class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
+            <div class="h-48 overflow-hidden bg-surface-container relative">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                data-alt="A macro detailed photography shot of a professional barista extracting a golden crema double espresso shot with rich hazelnut tones into a ceramic artisan cup in a sunlit warm specialty coffee shop in Tucumán."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBymTWAA6rxxhl2jxw_d0In8Xz3_4Oln_lUEaEo_9V4ltHMuZ6nO6Zy9a_y-laeA-OytrWFjxOZYnkpuX74fKDcLNSt3cfQcjsHE5Sy8hBq_xF7oe_T504h0xFZf51f7Mk5XASKKCPra3a9QYy0eiG81ncWgRL-IMHimHTYRMh-hDkJkWmgPyhX-x4Ne_DoP5MFl0VmhSxT-aC9B64intaIlzZ1ZLNyxWBTv8ECaAxRyPsyVtmAxS0nleM8myJ-UKcG0oT-vtDREfo" />
+              <div
+                class="absolute top-3 left-3 bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm border border-secondary-fixed-dim/40">
+                Calibración Diaria
+              </div>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2 text-primary mb-2">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="coffee">coffee</span>
+                  <span class="font-label-sm text-label-sm uppercase font-semibold">Barra Espresso</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Espresso &amp; Especiales</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  Doble shot calibrado a diario, Flat White aterciopelado, Dirty Chai especiado e Iced Lattes con leches
+                  vegetales de autor elaboradas en casa.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-label-sm text-label-sm text-outline">Notas: Frutas secas &amp; Caramelo</span>
+                <span class="material-symbols-outlined text-primary text-[18px]"
+                  data-icon="arrow_forward">arrow_forward</span>
+              </div>
+            </div>
           </div>
-</details>
-<!-- Accordion Item 5 -->
-<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
-<span>¿Cuentan con opciones veganas y sin TACC?</span>
-<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
-</summary>
-<div class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Absolutamente. Nuestro menú incluye opciones con leches vegetales artesanales, tostones con palta, budines plant-based y pastelería envasada en origen sin TACC con certificación oficial.
+          <!-- Card 2: Métodos de Filtrado Manual -->
+          <div
+            class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
+            <div class="h-48 overflow-hidden bg-surface-container relative">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                data-alt="A delicate V60 pour over manual brewing technique setup with clear glass decanter, stream of hot water over roasted coffee grounds, highlighting clean translucent amber coffee with floral aromas in an editorial warm minimalist setting."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZ3EcFObujOsE6oFnxrVK-kGHUUyf28nwqvFi3CfVCP74nBuNm-iECj97kGT2fo1DB3ttbVPJKdef_RMthe0NiJg2H7JdkoxxCGg-H_15-j4TRXH1PzGCIGK1jeO6r-Am2Yg5BZizD3ChjP7PI1N0_S5zY_XC0Xe9HrmgVvsiC0Z6tkUqL5op00TazJ50vdUbI3N0ie4pvhUxM1igXN5JfUrJm31OD6cjw9DV1MlOcxIsHX7ZACLf0_HVvSxt5GZlzdfoaRJUWJ6s" />
+              <div
+                class="absolute top-3 left-3 bg-primary-fixed/90 backdrop-blur-sm text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm">
+                SCA 84+ Points
+              </div>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2 text-primary mb-2">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="science">science</span>
+                  <span class="font-label-sm text-label-sm uppercase font-semibold">Slow Bar</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Filtrados Manuales</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  V60, Chemex, Aeropress y Prensa Francesa servidos en decantador de vidrio junto a la ficha técnica de
+                  origen con varietal, altura y proceso de secado.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-label-sm text-label-sm text-outline">Extracción limpia y delicada</span>
+                <span class="material-symbols-outlined text-primary text-[18px]"
+                  data-icon="arrow_forward">arrow_forward</span>
+              </div>
+            </div>
           </div>
-</details>
-</div>
-</div>
-</section>
-</main>
-<!-- ========================================================================= -->
-<!-- 8. FOOTER INTEGRAL CON NAP Y ACCIONES RÁPIDAS (Shared Component Execution)-->
-<!-- ========================================================================= -->
-<footer class="bg-surface-container-high dark:bg-inverse-surface border-t border-outline-variant/30 dark:border-outline/20 full-width transition-colors duration-150">
-<div class="max-w-[1320px] mx-auto px-6 md:px-12 py-16 flex flex-col gap-12">
-<!-- Top Grid Section -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
-<!-- Brand & Vision -->
-<div class="lg:col-span-4 flex flex-col items-start">
-<div class="flex flex-col mb-4">
-<span class="font-display-lg text-headline-md text-on-surface dark:text-inverse-on-surface font-semibold flex items-center gap-2">
-<span class="material-symbols-outlined text-primary dark:text-inverse-primary" data-icon="local_cafe">local_cafe</span>
+          <!-- Card 3: Pastelería y Panadería de Autor -->
+          <div
+            class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
+            <div class="h-48 overflow-hidden bg-surface-container relative">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                data-alt="Golden crisp artisanal croissants, sourdough pastry, pain au chocolat and spiced carrot cake slice garnished with Tucumán walnuts on a handmade ceramic plate against warm linen textures."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd2js0UxFjnvQJCm7a3Cb4NGaxz5C_nO8eGmWEXGILvzG7opHsRxwtbBOOGVUuADskfFCx-lF2jM7t20KGnd32yuw5DqPDvpjssnMqmn8Gf9NekgryiAgmU_JRQDDpPGNJH9LdNELIaKeu0WsQG2-QCIjDCXIO7_z5ykpZvyP-G-xZJuV5ox6fQklJDS6awVOYMgV5VoitZjwDqApuoZryvM-KnPSjEm_BAkFlh5S1dsmVG_zE61Li4PskyaYi0y6SmeludOqA8RE" />
+              <div
+                class="absolute top-3 left-3 bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm border border-secondary-fixed-dim/40">
+                Masa Madre
+              </div>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2 text-primary mb-2">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="bakery_dining">bakery_dining</span>
+                  <span class="font-label-sm text-label-sm uppercase font-semibold">Patisserie Propia</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Pastelería de Autor</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  Medialunas de masa madre hojaldradas con manteca pura, pain au chocolat, carrot cake con nueces
+                  tucumanas y laminados frescos horneados cada mañana.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-label-sm text-label-sm text-outline">Horneado diario desde las 7 AM</span>
+                <span class="material-symbols-outlined text-primary text-[18px]"
+                  data-icon="arrow_forward">arrow_forward</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4: Brunch & Desayunos Completos -->
+          <div
+            class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden flex flex-col group hover:-translate-y-1 transition-transform duration-150">
+            <div class="h-48 overflow-hidden bg-surface-container relative">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                data-alt="Nutritious savory sourdough toast with smashed avocado, soft poached eggs, fresh microgreens alongside an artisan Greek yogurt bowl with house toasted granola and seasonal berries in a warm sunny morning setting."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMwqAVke3mAp9i4_g0ltWXmXfuNddQHkNNZ6dTpcuBKoGL104-eydV9kH5HfOWJJsQ-dXWzReBB6aD5Ilw7zhmTGmQOx10Uj4VlzmWS6vHU7M5cCrERe3ODjlg53z_o9fRSWM56MPTd40ZNoSJI3bFo9R6Ea02MjmxIsKbaLZx1PnJQeXuX1icpA-1FxUntX4Z-zNUfXS73HeeUmhx2gzAfKz1EI3B3awXXVLAHGNtRm5Nb29joyQJzDs2pf8hoKtAZstbONxa6nw" />
+              <div
+                class="absolute top-3 left-3 bg-primary-fixed/90 backdrop-blur-sm text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm">
+                All Day Brunch
+              </div>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2 text-primary mb-2">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="egg_alt">egg_alt</span>
+                  <span class="font-label-sm text-label-sm uppercase font-semibold">Cocina Fresca</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Brunch &amp; Desayunos</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  Tostones de masa madre con palta y huevo poché, bowls de yogur artesanal con granola de la casa,
+                  frutos secos y frutas de estación seleccionadas del mercado local.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-label-sm text-label-sm text-outline">Opciones plant-based &amp; GF</span>
+                <span class="material-symbols-outlined text-primary text-[18px]"
+                  data-icon="arrow_forward">arrow_forward</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================================================= -->
+    <!-- 5. COBERTURA GEOGRÁFICA EN SAN MIGUEL DE TUCUMÁN                          -->
+    <!-- ========================================================================= -->
+    <section class="py-20 md:py-24 bg-surface-container-low border-y border-outline-variant/30" id="cobertura">
+      <div class="max-w-[1320px] mx-auto px-6 md:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          <!-- Info Column -->
+          <div class="lg:col-span-6">
+            <span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Tucumán
+              Capital</span>
+            <h2
+              class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
+              Área de Cobertura y Envíos Express de Granos
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+              Llegamos a tu hogar u oficina con café recién tostado en grano o molido según tu cafetera. Despachamos
+              pedidos directos en menos de 30 minutos dentro de las zonas principales.
+            </p>
+            <div class="space-y-4 mb-8">
+              <!-- Zone 1 -->
+              <div
+                class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
+                <span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="pin_drop">pin_drop</span>
+                </span>
+                <div>
+                  <h3 class="font-title-md text-title-md text-on-surface font-semibold">Barrio Norte</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">Av. Sarmiento, Av. Avellaneda,
+                    Corrientes, Santa Fe, Marco Avellaneda y alrededores residenciales.</p>
+                </div>
+              </div>
+              <!-- Zone 2 -->
+              <div
+                class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
+                <span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="location_on">location_on</span>
+                </span>
+                <div>
+                  <h3 class="font-title-md text-title-md text-on-surface font-semibold">Microcentro &amp; Plaza
+                    Independencia</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">Zona bancaria y corporativa, Casa
+                    Histórica, Casa de Gobierno, San Martín, 24 de Septiembre y Peatonal Muñecas.</p>
+                </div>
+              </div>
+              <!-- Zone 3 -->
+              <div
+                class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
+                <span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="near_me">near_me</span>
+                </span>
+                <div>
+                  <h3 class="font-title-md text-title-md text-on-surface font-semibold">Barrio Sur</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">Av. General Paz, Buenos Aires, Congreso,
+                    Plaza San Martín y corredor de Tribunales.</p>
+                </div>
+              </div>
+              <!-- Zone 4 -->
+              <div
+                class="p-4 bg-surface-container-lowest rounded-xl border border-outline-variant/40 flex items-start gap-4">
+                <span class="p-2.5 rounded-lg bg-secondary-container text-on-secondary-container">
+                  <span class="material-symbols-outlined text-[20px]" data-icon="school">school</span>
+                </span>
+                <div>
+                  <h3 class="font-title-md text-title-md text-on-surface font-semibold">Zona Universitaria (UNT)</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">Quinta Agronómica, Rectorado de la UNT,
+                    Facultades de Medicina y Filosofía y Letras.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="inline-flex items-center gap-3 px-4 py-3 rounded-xl bg-tertiary-fixed/40 text-on-tertiary-fixed-variant border border-outline-variant/30 font-body-sm text-body-sm">
+              <span class="material-symbols-outlined text-primary" data-icon="moped">moped</span>
+              <span><strong>Compromiso Lumina:</strong> Envíos directos en 30 minutos y retiro express sin fila en
+                mostrador.</span>
+            </div>
+          </div>
+          <!-- Schematic Map Visual Card -->
+          <div class="lg:col-span-6">
+            <div class="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/40 shadow-sm">
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary" data-icon="map">map</span>
+                  <span class="font-title-md text-title-md font-semibold text-on-surface">Radio de Cobertura San
+                    Miguel</span>
+                </div>
+                <span
+                  class="px-2.5 py-1 bg-secondary-fixed text-on-secondary-fixed-variant rounded-md font-label-sm text-label-sm font-semibold">3.5
+                  km Radio</span>
+              </div>
+              <!-- Visual representation of the city map using styled canvas container -->
+              <div
+                class="relative w-full h-[360px] rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 flex items-center justify-center">
+                <img class="w-full h-full object-cover"
+                  data-alt="A clean minimalist cartographic map illustration of San Miguel de Tucumán showing central street grids around Plaza Independencia and Barrio Norte with terracotta routing accents and soft warm cream tones."
+                  data-location="San Miguel de Tucuman"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC5Bmp5xfiNs7QGeW9XjOxNU6ihRyOjIi4uxzOv1XakwUOKAZ64mxY-S_KLLvQoIE3VWL29JcDCDU17uzk68lpFjG384hfQVFT65fAMYnghVvzABcNd21xvvNAGj0uOopfXVwQwBtZ5_GL2IAh1r0Xv8-JtvPdMweMYCrTPYj3o_krKWat70Jo-M6ARbfF5B2FueRM4MaC2S3ga0mU3rZ1r0Kx0V7KXsd-ZVSPYhZ6HepN30AdpJjizGomdmNSzO7KOwilhyOE4cM" />
+                <!-- Floating Location Pin for Central Shop -->
+                <div
+                  class="absolute inset-0 bg-on-surface/10 backdrop-blur-[1px] flex items-center justify-center pointer-events-none">
+                  <div
+                    class="bg-surface-container-lowest/95 backdrop-blur-md px-5 py-4 rounded-xl border border-outline-variant/60 shadow-lg text-center transform -translate-y-4">
+                    <div
+                      class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center mx-auto mb-2 shadow-sm">
+                      <span class="material-symbols-outlined text-[18px]" data-icon="local_cafe">local_cafe</span>
+                    </div>
+                    <h4 class="font-title-md text-title-md font-semibold text-on-surface">Lumina Tostaduría</h4>
+                    <p class="font-body-sm text-body-sm text-outline">Mendoza 456 · Centro</p>
+                    <span
+                      class="inline-block mt-2 px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">Punto
+                      de Partida</span>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-4 mt-5 pt-4 border-t border-outline-variant/30 text-center">
+                <div>
+                  <span class="block font-headline-sm text-headline-sm text-primary font-bold">30 min</span>
+                  <span class="font-body-sm text-body-sm text-outline">Promedio de entrega</span>
+                </div>
+                <div>
+                  <span class="block font-headline-sm text-headline-sm text-secondary font-bold">100% Hermético</span>
+                  <span class="font-body-sm text-body-sm text-outline">Válvula desgasificadora</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================================================= -->
+    <!-- 6. MATRIZ COMPARATIVA "POR QUÉ ELEGIR LUMINA"                            -->
+    <!-- ========================================================================= -->
+    <section class="py-20 md:py-24 bg-surface" id="nosotros">
+      <div class="max-w-[1320px] mx-auto px-6 md:px-12">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Transparencia
+            Total</span>
+          <h2
+            class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
+            Por qué elegir Lumina en Tucumán
+          </h2>
+          <p class="font-body-lg text-body-lg text-on-surface-variant">
+            Comparamos minuciosamente cada variable para garantizar que tu inversión en bienestar y sabor sea
+            inigualable.
+          </p>
+        </div>
+        <!-- Clean Comparison Table / Matrix -->
+        <div class="overflow-x-auto bg-surface-container-lowest rounded-2xl border border-outline-variant/40 shadow-sm">
+          <table class="w-full text-left border-collapse min-w-[640px]">
+            <thead>
+              <tr class="border-b border-outline-variant/40 bg-surface-container-low/50">
+                <th class="p-6 font-label-lg text-label-lg text-outline uppercase tracking-wider w-1/3">Criterio de
+                  Calidad</th>
+                <th
+                  class="p-6 font-title-lg text-title-lg text-primary font-semibold w-1/3 bg-primary-fixed/20 border-l border-r border-primary/20">
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-[20px]"
+                      data-icon="verified">verified</span>
+                    Lumina Café de Especialidad
+                  </div>
+                </th>
+                <th class="p-6 font-title-lg text-title-lg text-outline font-semibold w-1/3">Café Tradicional</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-outline-variant/30 font-body-md text-body-md">
+              <!-- Row 1: Origen del Grano -->
+              <tr class="hover:bg-surface-container-low/30 transition-colors">
+                <td class="p-6 font-semibold text-on-surface">
+                  Origen del Grano
+                  <span class="block font-normal text-body-sm text-outline mt-0.5">Calidad en finca y
+                    trazabilidad</span>
+                </td>
+                <td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
+                  Fincas seleccionadas con puntaje &gt;84 SCA, microlotes con trazabilidad completa de origen, variedad
+                  y proceso.
+                </td>
+                <td class="p-6 text-on-surface-variant">
+                  Mezclas comerciales genéricas sin identificación de finca ni varietal botánico.
+                </td>
+              </tr>
+              <!-- Row 2: Fecha de Tueste -->
+              <tr class="hover:bg-surface-container-low/30 transition-colors">
+                <td class="p-6 font-semibold text-on-surface">
+                  Fecha de Tueste
+                  <span class="block font-normal text-body-sm text-outline mt-0.5">Frescura de aceites esenciales</span>
+                </td>
+                <td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
+                  Menor a 30 días, tostado in situ en nuestro tostador de San Miguel de Tucumán.
+                </td>
+                <td class="p-6 text-on-surface-variant">
+                  Meses o años en góndola comercial, comúnmente torrado con azúcar añadida.
+                </td>
+              </tr>
+              <!-- Row 3: Espacio de Trabajo -->
+              <tr class="hover:bg-surface-container-low/30 transition-colors">
+                <td class="p-6 font-semibold text-on-surface">
+                  Espacio de Trabajo
+                  <span class="block font-normal text-body-sm text-outline mt-0.5">Productividad y ergonomía</span>
+                </td>
+                <td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
+                  Conectividad Starlink 250 Mbps simétrica, tomas individuales en cada mesa y ambiente calmo.
+                </td>
+                <td class="p-6 text-on-surface-variant">
+                  Red pública saturada o lenta, enchufes escasos y contaminación sonora constante.
+                </td>
+              </tr>
+              <!-- Row 4: Opciones Alimentarias -->
+              <tr class="hover:bg-surface-container-low/30 transition-colors">
+                <td class="p-6 font-semibold text-on-surface">
+                  Opciones Alimentarias
+                  <span class="block font-normal text-body-sm text-outline mt-0.5">Salud digestiva y elaboración</span>
+                </td>
+                <td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
+                  Masa madre de fermentación lenta (24h+), leches vegetales sin azúcar y repostería sin TACC.
+                </td>
+                <td class="p-6 text-on-surface-variant">
+                  Panificados industriales ultraprocesados con grasas hidrogenadas y conservantes.
+                </td>
+              </tr>
+              <!-- Row 5: Baristas -->
+              <tr class="hover:bg-surface-container-low/30 transition-colors">
+                <td class="p-6 font-semibold text-on-surface">
+                  Baristas y Preparación
+                  <span class="block font-normal text-body-sm text-outline mt-0.5">Capacitación técnica</span>
+                </td>
+                <td class="p-6 font-medium text-on-surface bg-primary-fixed/10 border-l border-r border-primary/20">
+                  Baristas certificados SCA con formación en texturizado de leche, ratios de extracción y cata.
+                </td>
+                <td class="p-6 text-on-surface-variant">
+                  Operadores de maquinaria automática sin calibración térmica ni control de peso.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================================================= -->
+    <!-- 7. SECCIÓN FAQS EN ACORDEÓN INTERACTIVO                                   -->
+    <!-- ========================================================================= -->
+    <section class="py-20 md:py-24 bg-surface-container-low border-b border-outline-variant/30" id="faqs">
+      <div class="max-w-[960px] mx-auto px-6 md:px-12">
+        <div class="text-center mb-14">
+          <span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Preguntas
+            Frecuentes</span>
+          <h2
+            class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-on-surface mt-2 mb-4">
+            Resolvemos tus dudas antes de tu visita
+          </h2>
+          <p class="font-body-md text-body-md text-on-surface-variant">
+            Todo lo que necesitás saber sobre nuestro café, tostado, conectividad y dinámicas de reserva.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <!-- Accordion Item 1 -->
+          <details
+            class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden"
+            open="">
+            <summary
+              class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
+              <span>¿Qué significa que el café sea "de especialidad"?</span>
+              <span
+                class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200"
+                data-icon="expand_more">expand_more</span>
+            </summary>
+            <div
+              class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              El café de especialidad es aquel calificado con 80 puntos o más por la Specialty Coffee Association (SCA).
+              En nuestro local trabajamos únicamente con lotes superiores a 84 puntos para garantizar la máxima calidad
+              en taza.
+            </div>
+          </details>
+          <!-- Accordion Item 2 -->
+          <details
+            class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
+            <summary
+              class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
+              <span>¿Puedo llevar mi laptop a trabajar y qué velocidad de internet tienen?</span>
+              <span
+                class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200"
+                data-icon="expand_more">expand_more</span>
+            </summary>
+            <div
+              class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Sí, somos un espacio ideal para el trabajo remoto. Contamos con conexión satelital Starlink de 250 Mbps
+              con baja latencia, múltiples tomas de corriente en cada mesa y un ambiente acústicamente diseñado para
+              nómadas digitales.
+            </div>
+          </details>
+          <!-- Accordion Item 3 -->
+          <details
+            class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
+            <summary
+              class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
+              <span>¿Tienen café en granos o molido para llevar a casa?</span>
+              <span
+                class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200"
+                data-icon="expand_more">expand_more</span>
+            </summary>
+            <div
+              class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Sí. Ofrecemos paquetes de granos recién tostados en nuestro local, garantizando menos de 30 días desde su
+              tueste. Además, los molemos en el momento según el tipo de cafetera que tengas en casa.
+            </div>
+          </details>
+          <!-- Accordion Item 4 -->
+          <details
+            class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
+            <summary
+              class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
+              <span>¿Toman reservas de mesas para reuniones o eventos?</span>
+              <span
+                class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200"
+                data-icon="expand_more">expand_more</span>
+            </summary>
+            <div
+              class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Tomamos reservas exclusivamente para reuniones grupales o de trabajo de lunes a viernes vía WhatsApp. Si
+              vienes solo o en pareja, puedes acercarte directamente sin reserva previa.
+            </div>
+          </details>
+          <!-- Accordion Item 5 -->
+          <details
+            class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 transition-all [&amp;_summary::-webkit-details-marker]:hidden">
+            <summary
+              class="flex items-center justify-between cursor-pointer font-title-lg text-title-lg text-on-surface font-semibold select-none">
+              <span>¿Cuentan con opciones veganas y sin TACC?</span>
+              <span
+                class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform duration-200"
+                data-icon="expand_more">expand_more</span>
+            </summary>
+            <div
+              class="mt-4 pt-4 border-t border-outline-variant/30 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Absolutamente. Nuestro menú incluye opciones con leches vegetales artesanales, tostones con palta, budines
+              plant-based y pastelería envasada en origen sin TACC con certificación oficial.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ========================================================================= -->
+  <!-- 8. FOOTER INTEGRAL CON NAP Y ACCIONES RÁPIDAS (Shared Component Execution)-->
+  <!-- ========================================================================= -->
+  <footer
+    class="bg-surface-container-high dark:bg-inverse-surface border-t border-outline-variant/30 dark:border-outline/20 full-width transition-colors duration-150">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-12 py-16 flex flex-col gap-12">
+      <!-- Top Grid Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+        <!-- Brand & Vision -->
+        <div class="lg:col-span-4 flex flex-col items-start">
+          <div class="flex flex-col mb-4">
+            <span
+              class="font-display-lg text-headline-md text-on-surface dark:text-inverse-on-surface font-semibold flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary dark:text-inverse-primary"
+                data-icon="local_cafe">local_cafe</span>
               Lumina Café
             </span>
-<span class="font-label-sm text-label-sm tracking-widest text-outline uppercase pl-8">Café de Especialidad</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant mb-6 leading-relaxed">
-            Tostaduría de café de especialidad y pastelería artesanal en San Miguel de Tucumán. Compartiendo el valor de los granos de origen y los momentos de pausa bien vividos.
+            <span
+              class="font-label-sm text-label-sm tracking-widest text-on-surface/75 dark:text-inverse-on-surface/75 font-semibold uppercase pl-8">Café
+              de Especialidad</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface/90 dark:text-inverse-on-surface/90 mb-6 leading-relaxed">
+            Tostaduría de café de especialidad y pastelería artesanal en San Miguel de Tucumán. Compartiendo el valor de
+            los granos de origen y los momentos de pausa bien vividos.
           </p>
-<div class="flex items-center gap-3">
-<a class="w-10 h-10 rounded-full bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors duration-150" href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[18px]" data-icon="chat">chat</span>
-</a>
-<a class="w-10 h-10 rounded-full bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-center text-on-surface hover:text-primary transition-colors duration-150" href="#">
-<span class="material-symbols-outlined text-[18px]" data-icon="photo_camera">photo_camera</span>
-</a>
-<a class="w-10 h-10 rounded-full bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-center text-on-surface hover:text-primary transition-colors duration-150" href="#cobertura">
-<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span>
-</a>
-</div>
-</div>
-<!-- NAP: Dirección Física & Ubicación -->
-<div class="lg:col-span-3">
-<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Ubicación (NAP)</h4>
-<address class="not-italic font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant space-y-2">
-<p class="font-semibold text-on-surface dark:text-inverse-on-surface">Lumina Café de Especialidad</p>
-<p class="flex items-start gap-2">
-<span class="material-symbols-outlined text-primary text-[18px] mt-0.5" data-icon="pin_drop">pin_drop</span>
-<span>Calle Mendoza 456, San Miguel de Tucumán, Tucumán, Argentina (T4000)</span>
-</p>
-<p class="text-outline pl-6">A pocas cuadras de Plaza Independencia y Casa Histórica.</p>
-</address>
-</div>
-<!-- Horarios & Contacto Rápido -->
-<div class="lg:col-span-3">
-<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Horarios &amp; Reservas</h4>
-<div class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant space-y-2 mb-4">
-<p class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="alarm">alarm</span>
-<span>Lunes a Sábados: 07:30 a 20:30 hs</span>
-</p>
-<p class="text-outline pl-6">Domingos: Cerrado para tueste de lotes</p>
-<p class="flex items-center gap-2 pt-2">
-<span class="material-symbols-outlined text-primary text-[18px]" data-icon="phone_iphone">phone_iphone</span>
-<span>WhatsApp: +54 9 381 000-0000</span>
-</p>
-</div>
-<a class="inline-flex items-center gap-2 text-primary font-semibold hover:underline" href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café">
-<span>Iniciar chat directo</span>
-<span class="material-symbols-outlined text-[16px]" data-icon="arrow_outward">arrow_outward</span>
-</a>
-</div>
-<!-- Enlaces Rápidos del Sistema -->
-<div class="lg:col-span-2">
-<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Navegación</h4>
-<ul class="space-y-2.5 font-label-sm text-label-sm">
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#menu">Menú</a></li>
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#nosotros">Nosotros</a></li>
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#cobertura">Cobertura</a></li>
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#faqs">FAQs</a></li>
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#">Términos y Condiciones</a></li>
-<li><a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150" href="#">Privacidad</a></li>
-</ul>
-</div>
-</div>
-<!-- Bottom Bar & Mandatory Copyright Text from JSON -->
-<div class="pt-8 border-t border-outline-variant/30 dark:border-outline/20 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-outline">
-<p>© 2024 Lumina Café de Especialidad. Todos los derechos reservados. San Miguel de Tucumán, Argentina.</p>
-<div class="flex items-center gap-2">
-<span>Hecho con pasión en el Norte Argentino</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span>
-<span>SCA Member</span>
-</div>
-</div>
-</div>
-</footer>
-<!-- Main Application Logic -->
-<script src="assets/js/main.js"></script>
-</body></html>
+          <div class="flex items-center gap-3">
+            <a class="w-10 h-10 rounded-full bg-surface dark:bg-surface-container border border-outline-variant/40 dark:border-outline/40 flex items-center justify-center text-primary dark:text-inverse-primary hover:bg-primary hover:text-on-primary transition-colors duration-150"
+              href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café" rel="noopener noreferrer" target="_blank"
+              aria-label="WhatsApp Lumina Café">
+              <span class="material-symbols-outlined text-[18px]" data-icon="chat">chat</span>
+            </a>
+            <a class="w-10 h-10 rounded-full bg-surface dark:bg-surface-container border border-outline-variant/40 dark:border-outline/40 flex items-center justify-center text-on-surface dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+              href="#" aria-label="Instagram Lumina Café">
+              <span class="material-symbols-outlined text-[18px]" data-icon="photo_camera">photo_camera</span>
+            </a>
+            <a class="w-10 h-10 rounded-full bg-surface dark:bg-surface-container border border-outline-variant/40 dark:border-outline/40 flex items-center justify-center text-on-surface dark:text-inverse-on-surface hover:text-primary dark:hover:text-inverse-primary transition-colors duration-150"
+              href="#cobertura" aria-label="Ubicación Lumina Café">
+              <span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span>
+            </a>
+          </div>
+        </div>
+        <!-- NAP: Dirección Física & Ubicación -->
+        <div class="lg:col-span-3">
+          <h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Ubicacións
+          </h4>
+          <address
+            class="not-italic font-body-sm text-body-sm text-on-surface/90 dark:text-inverse-on-surface/90 space-y-2">
+            <p class="font-semibold text-on-surface dark:text-inverse-on-surface">Lumina Café de Especialidad</p>
+            <p class="flex items-start gap-2">
+              <span class="material-symbols-outlined text-primary dark:text-inverse-primary text-[18px] mt-0.5"
+                data-icon="pin_drop">pin_drop</span>
+              <span>Calle Mendoza 456, San Miguel de Tucumán, Tucumán, Argentina (T4000)</span>
+            </p>
+            <p class="text-on-surface/75 dark:text-inverse-on-surface/75 pl-6">A pocas cuadras de Plaza Independencia y
+              Casa Histórica.</p>
+          </address>
+        </div>
+        <!-- Horarios & Contacto Rápido -->
+        <div class="lg:col-span-3">
+          <h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Horarios &amp;
+            Reservas</h4>
+          <div class="font-body-sm text-body-sm text-on-surface/90 dark:text-inverse-on-surface/90 space-y-2 mb-4">
+            <p class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary dark:text-inverse-primary text-[18px]"
+                data-icon="alarm">alarm</span>
+              <span>Lunes a Sábados: 07:30 a 20:30 hs</span>
+            </p>
+            <p class="text-on-surface/75 dark:text-inverse-on-surface/75 pl-6">Domingos: Cerrado para tueste de lotes
+            </p>
+            <p class="flex items-center gap-2 pt-2">
+              <span class="material-symbols-outlined text-primary dark:text-inverse-primary text-[18px]"
+                data-icon="phone_iphone">phone_iphone</span>
+              <span>WhatsApp: +54 9 381 000-0000</span>
+            </p>
+          </div>
+          <a class="inline-flex items-center gap-2 text-primary dark:text-inverse-primary font-semibold hover:underline"
+            href="https://wa.me/5493810000000?text=Hola%20Lumina%20Café">
+            <span>Iniciar chat directo</span>
+            <span class="material-symbols-outlined text-[16px]" data-icon="arrow_outward">arrow_outward</span>
+          </a>
+        </div>
+        <!-- Enlaces Rápidos del Sistema -->
+        <div class="lg:col-span-2">
+          <h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-inverse-on-surface mb-4">Navegación
+          </h4>
+          <ul class="space-y-2.5 font-label-sm text-label-sm">
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#menu">Menú</a></li>
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#nosotros">Nosotros</a></li>
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#cobertura">Cobertura</a></li>
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#faqs">FAQs</a></li>
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#">Términos y Condiciones</a></li>
+            <li><a
+                class="text-on-surface/90 dark:text-inverse-on-surface/90 hover:text-primary dark:hover:text-inverse-primary font-medium transition-colors duration-150"
+                href="#">Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Bottom Bar & Mandatory Copyright Text from JSON -->
+      <div
+        class="pt-8 border-t border-outline-variant/30 dark:border-outline/20 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface/80 dark:text-inverse-on-surface/80 font-medium">
+        <p>© 2024 Lumina Café de Especialidad. Todos los derechos reservados. San Miguel de Tucumán, Argentina.</p>
+        <div class="flex items-center gap-2">
+          <span>Hecho con pasión en el Norte Argentino</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-primary dark:bg-inverse-primary inline-block"></span>
+          <span class="font-semibold text-on-surface dark:text-inverse-on-surface">SCA Member</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Main Application Logic -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
